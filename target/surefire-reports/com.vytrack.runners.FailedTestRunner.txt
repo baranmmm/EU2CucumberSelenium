@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.vytrack.runners.FailedTestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 17.009 s <<< FAILURE! - in com.vytrack.runners.FailedTestRunner
+driver user(Account types)  Time elapsed: 16.977 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<... Events - Activities[s]> but was:<... Events - Activities[]>
+
