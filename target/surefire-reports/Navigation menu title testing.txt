@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: Navigation menu title testing
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 102.103 s <<< FAILURE! - in Navigation menu title testing
+Dynamic Navigation(Navigation menu title testing)  Time elapsed: 57.183 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[normalize-space()='Contacts' and contains(@class, 'title title-level-2')]"}
+  (Session info: chrome=83.0.4103.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BARAN-PC', ip: '192.168.1.79', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.97, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\BARAN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54237}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 8defc2a7bac05dd352b35b39705ad40f
+*** Element info: {Using=xpath, value=//span[normalize-space()='Contacts' and contains(@class, 'title title-level-2')]}
+

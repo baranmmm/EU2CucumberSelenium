@@ -14,7 +14,7 @@ Feature: Users should be able to login
     When the user enter the store manager information
     Then the user should be able to login
 
-
+    @wip
     Scenario: login as dynamically
       When the user logged in as "store manager"
       Then the user should be able to login

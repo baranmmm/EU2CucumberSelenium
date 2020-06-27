@@ -1,1 +1,2 @@
-file:src/test/resources/features/AccountTypes.feature:30
+file:src/test/resources/features/NavigationMenu.feature:23
+file:src/test/resources/features/Login.feature:18
