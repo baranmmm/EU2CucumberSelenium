@@ -6,23 +6,23 @@ Feature: Navigation menu title testing
     When the user enter the sales manager information
     And the user navigates to Fleet, Vehicles
     Then title should be Vehicles
-
+  @wip
   Scenario: Navigating Marketing -- Campaigns
     Given the user is on the login page
     When the user enter the sales manager information
     And the user navigates to Marketing, Campaigns
     Then title should be Campaigns
-
+  @wip
   Scenario: Navigating Fleet -- Vehicles
     Given the user is on the login page
     When the user enter the sales manager information
     And the user navigates to Activities, Calendar Events
     Then title should be Calendar Events
 
-
+  @wip
   Scenario: Dynamic Navigation
     Given the user is on the login page
-    When the user logs in using "salesmanager101" username and "UserUser123" password
+    When the user logs in using "salesmanager101" username and "UserUser123s" password
     And the user navigates to "Customers" then "Contacts"
     Then the title should be "Contacts - Customers"
     Then default page number should be 1

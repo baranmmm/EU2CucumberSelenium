@@ -7,7 +7,7 @@ Feature: Login as different users
     Then the user should be able to login
     And the title should be "Dashboard"
 
-
+  @wip
   Scenario: login as a given user
     Given the user is on the login page
     When the user logs in using following credentials
