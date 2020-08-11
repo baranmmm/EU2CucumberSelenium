@@ -1,2 +1,1 @@
-file:src/test/resources/features/NavigationMenu.feature:23
-file:src/test/resources/features/Login.feature:18
+file:src/test/resources/features/Contacts.feature:18
